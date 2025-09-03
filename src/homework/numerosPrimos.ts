@@ -4,7 +4,7 @@
 
 // Se debe hacer las validaciones correspondientes
 let numero: number;
-function esPrimo (num: number): boolean{ //void cuando quieres que solo corra lo que esta dentro y no devolver nada
+function esPrimo (num: number): boolean{
      if ( num < 1 ) return false;
 
      if ( num === 2) return true;
@@ -17,9 +17,9 @@ function esPrimo (num: number): boolean{ //void cuando quieres que solo corra lo
     return true;
 };
 
-console.log(esPrimo(8));
-console.log(esPrimo(4));
-console.log(esPrimo(10));
-console.log(esPrimo(23));
-console.log(esPrimo(31));
-console.log(esPrimo(13));
+console.log(esPrimo(8)); //false
+console.log(esPrimo(4)); //false
+console.log(esPrimo(10)); //false
+console.log(esPrimo(23)); //true
+console.log(esPrimo(31)); //true
+console.log(esPrimo(13)); // true
