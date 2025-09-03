@@ -8,4 +8,5 @@
 // import './homework/fizzbuzz'
 //import "./homework/Arreglos-Estudiantes"
 //import './homework/fibonachi'
-import './homework/sudoku'
+//import './homework/sudoku'
+import './homework/numerosPrimos'
